@@ -1,0 +1,19 @@
+{
+  "name": "infoprop-desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurojosedmjr/infoprop-desafio.git"
+  },
+  "author": "Mauro Martins Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maurojosedmjr/infoprop-desafio/issues"
+  },
+  "homepage": "https://github.com/maurojosedmjr/infoprop-desafio#readme"
+}
