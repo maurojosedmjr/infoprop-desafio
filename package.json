@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/maurojosedmjr/infoprop-desafio/issues"
   },
-  "homepage": "https://github.com/maurojosedmjr/infoprop-desafio#readme"
+  "homepage": "https://github.com/maurojosedmjr/infoprop-desafio#readme",
+  "dependencies": {
+    "csv-array": "0.0.22",
+    "csv-to-array": "^1.0.2",
+    "csvtojson": "^2.0.8",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-fileupload": "^1.0.0-alpha.1",
+    "fast-csv": "^2.4.1",
+    "leaflet": "^1.3.4",
+    "mongoose": "^5.3.2",
+    "mongoose-csv": "^1.1.0",
+    "multer": "^1.4.0"
+  }
 }

@@ -3,6 +3,7 @@ var http = require('http'),
     app = express(),
     mongoose = require('mongoose'),
     bodyparser = require('body-parser'),
+    fileUpload = require('express-fileupload'),
     port = process.env.PORT || 3000;
 
 
@@ -12,14 +13,12 @@ var db = mongoose.connection;
 
 app.set('view engine', 'ejs');
 
-
-// app.use(bodyparser.urlencoded({
-// 	extended: true
-// }));
 app.use(bodyparser.json());
 
+app.use(fileUpload());
+
 //routes
-var routes = require('./lib/routes.js')(app);
+var routes = require('./app/routes.js')(app);
 
 var server = http.createServer(app);
 server.listen(port);
